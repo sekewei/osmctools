@@ -1,5 +1,5 @@
 # osmctools
-OpenStreetMap processing tools. It supports conversion between .osm, .o5m, .pbf formats.
+OpenStreetMap processing tools. It supports conversion between .osm, .o5m, and .pbf formats.
 
 Sample Usage: Download and Convert .pbf to .osm
 ```
