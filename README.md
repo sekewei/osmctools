@@ -7,7 +7,7 @@ Sample Usage: Download and Convert .pbf to .osm
 > wget http://download.geofabrik.de/asia/taiwan-latest.osm.pbf
 > ./osmcomvert
 
-osmconvert 0.8.4
+osmconvert 0.8.8
 
 Converts .osm, .o5m, .pbf, .osc, .osh files, applies changes
 of .osc, .o5c, .osh files and sets limiting borders.
@@ -66,12 +66,13 @@ If the input file is very large, this will take several minutes.
 If you want to get acquainted with the much more powerful
 command line, this would have been your command:
 
-osmconvert ../taiwan-latest.osm.pbf --out-osm -o=../taiwan-latest.osm
+osmconvert ../taiwan-latest.osm.pbf --out-osm -o=../taiwan-latest.osm_01.osm
 -----------------------------------------------------------------
 -----------------------------------------------------------------
 Finished! Calculation time: 9s.
 I just completed your new file with this name:
-  ../taiwan-latest.osm
+  ../taiwan-latest.osm_01.osm
 Thanks for visiting me. Bye!
 Yours, Bert
+(To close this window, please press <Return>.)
 ```
