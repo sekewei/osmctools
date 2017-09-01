@@ -3,9 +3,10 @@ OpenStreetMap processing tools. It supports conversion between .osm, .o5m, .pbf 
 
 Sample Usage: Download and Convert .pbf to .osm
 ```
-gcc -o osmconvert osmconvert.c -O3 -lz
-wget http://download.geofabrik.de/asia/taiwan-latest.osm.pbf
-./osmcomvert
+> gcc -o osmconvert osmconvert.c -O3 -lz
+> wget http://download.geofabrik.de/asia/taiwan-latest.osm.pbf
+> ./osmcomvert
+
 osmconvert 0.8.4
 
 Converts .osm, .o5m, .pbf, .osc, .osh files, applies changes
@@ -70,7 +71,7 @@ osmconvert ../taiwan-latest.osm.pbf --out-osm -o=../taiwan-latest.osm
 -----------------------------------------------------------------
 Finished! Calculation time: 9s.
 I just completed your new file with this name:
-  ../taiwan-latest.osm_01.osm
+  ../taiwan-latest.osm
 Thanks for visiting me. Bye!
 Yours, Bert
 ```
