@@ -1,6 +1,8 @@
 # osmctools
 OpenStreetMap processing tools. It supports conversion between .osm, .o5m, and .pbf formats.
 
+Reference: [What is contained in a .pbf file?](https://github.com/sekewei/osmctools/wiki/What-is-contained-in-a-.pbf-file%3F)
+
 Sample Usage: Download and Convert .pbf to .osm
 ```
 > gcc -o osmconvert osmconvert.c -O3 -lz
